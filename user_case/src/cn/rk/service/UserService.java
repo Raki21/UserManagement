@@ -4,6 +4,7 @@ import cn.rk.domain.PageBean;
 import cn.rk.domain.User;
 
 import java.util.List;
+import java.util.Map;
 
 public interface UserService {
 
@@ -40,7 +41,7 @@ public interface UserService {
     void delSelectedUser(String[] ids);
 
     /*
-    * 分页查询
+    * 分页条件查询
     * */
-    PageBean<User> findUserByPage(String curruntPage, String rows);
+    PageBean<User> findUserByPage(String curruntPage, String rows, Map<String, String[]> condition);
 }

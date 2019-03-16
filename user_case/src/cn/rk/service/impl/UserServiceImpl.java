@@ -7,6 +7,7 @@ import cn.rk.domain.User;
 import cn.rk.service.UserService;
 
 import java.util.List;
+import java.util.Map;
 
 public class UserServiceImpl implements UserService {
 
@@ -58,7 +59,7 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public PageBean<User> findUserByPage(String _curruntPage, String _rows) {
+    public PageBean<User> findUserByPage(String _curruntPage, String _rows, Map<String, String[]> condition) {
 
             //数据转换
             int curruntPage = Integer.parseInt(_curruntPage);
@@ -75,11 +76,11 @@ public class UserServiceImpl implements UserService {
             pb.setRows(rows);
 
             //3 调用dao查询totalCount
-            int totalCount = dao.findTotalCount();
+            int totalCount = dao.findTotalCount(condition);
             pb.setTotalCount(totalCount);
             //4 调用dao查询List集合
             int start = (curruntPage - 1) * rows;
-            List<User> list = dao.findByPage(start, rows);
+            List<User> list = dao.findByPage(start, rows, condition);
             pb.setList(list);
 
             //5 计算总页码
