@@ -6,18 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f36f7191-4f06-4de0-8777-f400dd008f74" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/out/artifacts/user_case_war_exploded/WEB-INF/classes/cn/rk/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/user_case_war_exploded/WEB-INF/classes/cn/rk/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/user_case_war_exploded/WEB-INF/classes/cn/rk/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/user_case_war_exploded/WEB-INF/classes/cn/rk/dao/impl/UserDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/user_case_war_exploded/WEB-INF/classes/cn/rk/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/user_case_war_exploded/WEB-INF/classes/cn/rk/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/user_case_war_exploded/WEB-INF/classes/cn/rk/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/user_case_war_exploded/WEB-INF/classes/cn/rk/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/user_case_war_exploded/WEB-INF/classes/cn/rk/web/FindUserByPageServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/user_case_war_exploded/WEB-INF/classes/cn/rk/web/FindUserByPageServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/user_case_war_exploded/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/user_case_war_exploded/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/user_case/cn/rk/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/user_case/cn/rk/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/user_case/cn/rk/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/user_case/cn/rk/dao/impl/UserDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/user_case/cn/rk/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/user_case/cn/rk/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/user_case/cn/rk/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/user_case/cn/rk/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/user_case/cn/rk/web/FindUserByPageServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/user_case/cn/rk/web/FindUserByPageServlet.class" afterDir="false" />
+    <list default="true" id="f36f7191-4f06-4de0-8777-f400dd008f74" name="Default Changelist" comment="add filter for Login">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,10 +41,10 @@
         <counts>
           <entry key="class" value="1" />
           <entry key="html" value="15" />
-          <entry key="java" value="77" />
+          <entry key="java" value="79" />
           <entry key="jsp" value="21" />
           <entry key="properties" value="3" />
-          <entry key="txt" value="1" />
+          <entry key="txt" value="5" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
@@ -62,9 +52,9 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="HTML" value="15" />
-          <entry key="JAVA" value="77" />
+          <entry key="JAVA" value="79" />
           <entry key="JSP" value="21" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="5" />
           <entry key="Properties" value="3" />
           <entry key="XML" value="1" />
         </counts>
@@ -73,18 +63,18 @@
         <counts>
           <entry key="ft" value="91" />
           <entry key="html" value="698" />
-          <entry key="java" value="11832" />
+          <entry key="java" value="12670" />
           <entry key="jsp" value="2151" />
           <entry key="properties" value="170" />
-          <entry key="txt" value="19" />
+          <entry key="txt" value="61" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="698" />
-          <entry key="JAVA" value="11832" />
+          <entry key="JAVA" value="12670" />
           <entry key="JSP" value="2151" />
-          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="PLAIN_TEXT" value="61" />
           <entry key="Properties" value="170" />
           <entry key="VTL" value="91" />
         </counts>
@@ -106,88 +96,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user_case/web/add.jsp">
+        <entry file="file://$PROJECT_DIR$/user_case/src/cn/rk/web/filter/LoginFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+            <state relative-caret-position="306">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/user_case/src/cn/rk/web/filter/LoginFilter.java">
+        <entry file="file://$PROJECT_DIR$/user_case/src/cn/rk/web/filter/SensitiveWordsFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user_case/src/cn/rk/web/LoginServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="67" column="35" selection-start-line="67" selection-start-column="35" selection-end-line="67" selection-end-column="35" />
+            <state relative-caret-position="222">
+              <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1288#1296#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user_case/src/cn/rk/web/GetIdServlet.java">
+        <entry file="file://$PROJECT_DIR$/user_case/src/cn/rk/web/TestServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+            <state relative-caret-position="266">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user_case/src/cn/rk/web/FindUserByPageServlet.java">
+        <entry file="file://$PROJECT_DIR$/user_case/src/SensitiveWords.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="38" column="52" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user_case/src/cn/rk/web/AddUserServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user_case/src/cn/rk/dao/UserDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user_case/src/cn/rk/dao/impl/UserDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user_case/src/cn/rk/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="779">
-              <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+            <state relative-caret-position="19">
+              <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -225,9 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/cn/rk/domain/User.java" />
-        <option value="$PROJECT_DIR$/src/cn/rk/util/JDBCUtils.java" />
-        <option value="$PROJECT_DIR$/src/druid.properties" />
         <option value="$PROJECT_DIR$/src/cn/rk/test/UserDaoTest.java" />
         <option value="$PROJECT_DIR$/src/cn/rk/servlet/FailServlet.java" />
         <option value="$PROJECT_DIR$/src/cn/rk/servlet/SuccessServlet.java" />
@@ -275,6 +214,10 @@
         <option value="$PROJECT_DIR$/user_case/src/cn/rk/web/FindUserByPageServlet.java" />
         <option value="$PROJECT_DIR$/user_case/web/list.jsp" />
         <option value="$PROJECT_DIR$/user_case/src/cn/rk/web/filter/LoginFilter.java" />
+        <option value="$PROJECT_DIR$/user_case/src/SersitiveWords.txt" />
+        <option value="$PROJECT_DIR$/user_case/src/cn/rk/web/TestServlet.java" />
+        <option value="$PROJECT_DIR$/user_case/src/SensitiveWords.txt" />
+        <option value="$PROJECT_DIR$/user_case/src/cn/rk/web/filter/SensitiveWordsFilter.java" />
       </list>
     </option>
   </component>
@@ -300,8 +243,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="371" />
-    <option name="y" value="185" />
+    <option name="x" value="758" />
+    <option name="y" value="170" />
     <option name="width" value="1600" />
     <option name="height" value="785" />
   </component>
@@ -403,6 +346,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="rk" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LoginDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LoginDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="user_case" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="rk" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LoginDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -596,7 +548,7 @@
       <workItem from="1552550593434" duration="11173000" />
       <workItem from="1552565415633" duration="13660000" />
       <workItem from="1552734214039" duration="4708000" />
-      <workItem from="1552804667172" duration="3565000" />
+      <workItem from="1552804667172" duration="9986000" />
     </task>
     <task id="LOCAL-00001" summary="add search">
       <created>1552756797411</created>
@@ -641,7 +593,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82703000" />
+    <option name="totallyTimeSpent" value="89124000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -653,7 +605,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="371" y="185" width="1600" height="785" extended-state="0" />
+    <frame x="758" y="170" width="1600" height="785" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6057692" visible="true" weight="0.18356867" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -754,6 +707,36 @@
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user_case/src/cn/rk/web/TestServlet.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user_case/src/cn/rk/web/TestServlet.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user_case/src/cn/rk/web/TestServlet.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user_case/src/cn/rk/web/filter/SensitiveWordsFilter.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user_case/src/cn/rk/web/filter/SensitiveWordsFilter.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -761,27 +744,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cn/rk/responsedemo/ResponseDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/rk/responsedemo/ResponseDemo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/rk/servlet/FailServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/rk/util/JDBCUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="836">
@@ -1111,7 +1073,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/user_case/src/cn/rk/web/LoginServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
+        <state relative-caret-position="346">
           <caret line="67" column="35" selection-start-line="67" selection-start-column="35" selection-end-line="67" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1119,10 +1081,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/user_case/src/SensitiveWords.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_case/src/cn/rk/web/TestServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/user_case/src/cn/rk/web/filter/LoginFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+        <state relative-caret-position="306">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_case/src/cn/rk/web/filter/SensitiveWordsFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+          <folding>
+            <element signature="e#1288#1296#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
